@@ -19,7 +19,7 @@ namespace Basic_Dynamic_profile.Controllers
         }
         public ActionResult Contact()
         {
-            return View();
+            return Redirect("https://dotnet.microsoft.com/en-us/apps/aspnet");
         }
         public ActionResult Login()
         {
