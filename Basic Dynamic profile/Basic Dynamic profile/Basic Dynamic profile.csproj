@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BasicProfileController.cs" />
+    <Compile Include="Controllers\DashboardProfileController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -168,6 +169,11 @@
     <Content Include="Views\BasicProfile\Contact.cshtml" />
     <Content Include="Views\BasicProfile\Login.cshtml" />
     <Content Include="Views\BasicProfile\signup.cshtml" />
+    <Content Include="Views\Shared\_DashboardLayout.cshtml" />
+    <Content Include="Views\DashboardProfile\MyProfile.cshtml" />
+    <Content Include="Views\DashboardProfile\Settings.cshtml" />
+    <Content Include="Views\DashboardProfile\Logout.cshtml" />
+    <Content Include="Views\BasicProfile\LoginSubmit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
