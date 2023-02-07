@@ -24,7 +24,8 @@ namespace Basic_Dynamic_profile.Controllers
         public ActionResult Contact()
         {
             ViewBag.Title = "Contact";
-            return Redirect("https://dotnet.microsoft.com/en-us/apps/aspnet");
+            return View();
+            //return Redirect("https://dotnet.microsoft.com/en-us/apps/aspnet");
         }
         public ActionResult Login()
         {
